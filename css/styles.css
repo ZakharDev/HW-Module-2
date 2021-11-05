@@ -16,11 +16,6 @@ body {
   background-color: var(--primary-white-color);
 }
 /* all site */
-.title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
 
 .link {
   text-decoration: none;
@@ -32,10 +27,10 @@ body {
 /* nav site */
 .logo {
   font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: left;
 }
 .logo {
   color: var(--accent-color);
@@ -48,27 +43,26 @@ body {
   color: var(--accent-color);
 }
 
-.link-site-nav-text {
+.header-link {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  text-align: left;
   color: var(--title-text-color);
 }
-.link-site-nav-text:hover,
-.link-site-nav-text:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color-hover);
 }
-.link-site-contact {
-  font-family: Roboto;
+.header-link-contact {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14x;
   letter-spacing: 0.02em;
-  text-align: left;
   color: var(--primary-text-color);
 }
-.link-site-contact:hover,
-.link-site-contact:focus {
+.header-link-contact:hover,
+.header-link-contact:focus {
   color: var(--accent-color-hover);
 }
 
@@ -76,7 +70,7 @@ body {
 
 .hero-title {
   color: var(--primary-white-color);
-  font-family: Roboto;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36x;
   letter-spacing: 0.06em;
@@ -85,7 +79,8 @@ body {
 }
 
 .hero-button {
-  font-family: Roboto;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -108,19 +103,17 @@ body {
 
 /* Advantages */
 .advantages-title {
-  font-family: Roboto;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-align: left;
   text-transform: uppercase;
 }
 .advantages-text {
-  font-family: Roboto;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-align: left;
   color: var(--primary-text-color);
 }
 
@@ -129,13 +122,13 @@ body {
   background-color: var(--team-bg-color);
 }
 .team-title {
-  font-family: Roboto;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .team-role {
-  font-family: Roboto;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -153,20 +146,18 @@ body {
   background-color: var(--footer-bg-color);
 }
 .footer-map {
-  font-family: Roboto;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-align: left;
   color: var(--primary-white-color);
 }
 
 .footer-contact {
-  font-family: Roboto;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-align: left;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-map:hover,
@@ -179,12 +170,11 @@ body {
 /* PORTFOLIO */
 /* types of work */
 .button-works {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
-
   border: none;
   border-radius: 4px;
 }
@@ -198,22 +188,21 @@ body {
 .button-works:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
   cursor: pointer;
 }
-.work-title {
-  font-family: Roboto;
+
+.content-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: left;
+  color: var(--title-text-color);
 }
 
-.work-text {
-  font-family: Roboto;
+.content-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  text-align: left;
   color: var(--primary-text-color);
 }
